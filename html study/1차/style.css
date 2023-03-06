@@ -1,0 +1,132 @@
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;;
+    text-align: center;
+}
+
+
+
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.todo {
+    margin-bottom : 50px;
+    text-align: center;
+    border: 4px dotted;
+    background-color:white;
+
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #todo-list button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+
+ 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+ 
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container {
+    margin-bottom: 2px;
+    text-align: center;
+    border: 4px solid;
+  color: #fff;
+  background: linear-gradient(-45deg, black,#333,#555,gray,white);
+  background-size: 400% 400%;
+  animation: AnimationName 15s ease infinite;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  top: 35%;
+  text-align: center;
+}
+
+.container ul {
+    text-align:left;
+} 
+
+.main_container {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2px;
+    text-align: center;
+    border: 4px solid;
+    color: black;
+    border:none;
+    background-color:white;
+  background-size: 400% 400%;
+  top: 35%;
+  text-align: center;
+}

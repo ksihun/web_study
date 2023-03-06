@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="main.html">메인화면</a></li>
+            <li><a href="about.html">웹페이지 소개</a></li>
+            <li><a href="todo.html">To-do list</a></li>
+            <li><a href="post.html">글 작성</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="container">
+      <h2>포스팅 공간</h2>
+      <br>
+      <form>
+        <label for="title">제목:</label>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="content">내용:</label><br>
+        <textarea id="content" name="content" rows="10" cols="50"></textarea><br><br>
+        <input type="submit" value="글 올리기">
+      </form>
+  
+      <hr>
+
+      </div>
+      <div class="container">
+      <h2>작성한 글</h2>
+      <ul id="post-list">
+      </ul>
+  
+    </div>
+        <script src="blog.js"></script>
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="main.html">메인화면</a></li>
+          <li><a href="about.html">웹페이지 소개</a></li>
+          <li><a href="todo.html">To-do list</a></li>
+          <li><a href="post.html">글 작성</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="container">
+    <h1>간단한 글 작성하기</h1>
+    <form>
+      <label for="title">제목:</label>
+      <input type="text" id="title" name="title"><br><br>
+      <label for="content">내용:</label><br>
+      <textarea id="content" name="content" rows="10" cols="50"></textarea><br><br>
+      <input type="submit" value="작성">
+    </form>
+
+    <hr>
+
+    <h2>작성한 글</h2>
+    <ul id="post-list">
+    </ul>
+  </div>
+
+  <script src="blog.js"></script>
+  </body>
+
+</html> -->
