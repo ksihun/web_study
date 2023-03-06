@@ -1,0 +1,19 @@
+body {
+    background-color:wheat;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align : center;
+
+}
+h1{
+    color: black;
+
+}
+
+input {
+    max-width: 50px;
+}
+
+
+#result {
+    color : black;
+}

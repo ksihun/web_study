@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.content {
+    margin-bottom: 50px;
+    text-align: center;
+    border: 4px solid;
+    border-radius:20px;
+    background-color:gray;
+
+}
+
+
+
+#nav li {
+    display:inline;
+}
+
+a:hover {
+    background-image: linear-gradient(90deg, red, orange, green, blue, blueviolet);
+    background-clip:text;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+    color: transparent;
+}
+
+#members {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+}
